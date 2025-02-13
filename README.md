@@ -1,1 +1,1 @@
-# MathUtils.
+# MathUtils
