@@ -18,4 +18,7 @@ public class math_utils {
     public static int multiply(int a, int b) {
         return a * b;
     }
+    public static double divide(int a, int b) {
+        return a / b; //Va a dar error si b = 0
+    }
 }
