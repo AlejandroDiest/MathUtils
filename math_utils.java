@@ -1,8 +1,15 @@
 
 public class math_utils {
-    public static int add(int a, int b) {
-        return a + b;
-    }
+	
+	//con int... aceptamos una cantidad variable de argumentos
+	//y con un bucle for each/enchanced for los leemos
+	public static int add(int... numeros) {
+	    int sum = 0;
+	    for (int numero : numeros) {
+	        sum = sum + numero;
+	    }
+	    return sum;
+	}
 
     public static int subtract(int a, int b) {
         return a - b;
